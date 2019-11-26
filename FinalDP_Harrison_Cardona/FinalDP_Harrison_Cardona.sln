@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuadraticEquiations", "QuadraticEquiations", "{4A4B8D9F-B69E-4E33-B5E0-65369834959D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquiations.Android", "QuadraticEquiations.Android\QuadraticEquiations.Android.csproj", "{47895F97-1712-4896-9E67-9A9511011FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquiations.Core", "QuadraticEquiations.Core\QuadraticEquiations.Core.csproj", "{F97AA71C-C9EF-4F0D-9111-922B05ED5A53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47895F97-1712-4896-9E67-9A9511011FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47895F97-1712-4896-9E67-9A9511011FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47895F97-1712-4896-9E67-9A9511011FA7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{47895F97-1712-4896-9E67-9A9511011FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47895F97-1712-4896-9E67-9A9511011FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47895F97-1712-4896-9E67-9A9511011FA7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F97AA71C-C9EF-4F0D-9111-922B05ED5A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97AA71C-C9EF-4F0D-9111-922B05ED5A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97AA71C-C9EF-4F0D-9111-922B05ED5A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97AA71C-C9EF-4F0D-9111-922B05ED5A53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47895F97-1712-4896-9E67-9A9511011FA7} = {4A4B8D9F-B69E-4E33-B5E0-65369834959D}
+		{F97AA71C-C9EF-4F0D-9111-922B05ED5A53} = {4A4B8D9F-B69E-4E33-B5E0-65369834959D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFCA8A2B-772B-4FAD-B803-114DA0499FF2}
+	EndGlobalSection
+EndGlobal
