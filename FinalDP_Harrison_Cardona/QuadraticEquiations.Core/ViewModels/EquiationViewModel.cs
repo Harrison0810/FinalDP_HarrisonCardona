@@ -29,6 +29,7 @@ namespace QuadraticEquiations.Core.ViewModels
             {
                 _valueA = value;
                 RaisePropertyChanged(() => ValueA);
+                Calculate();
             }
         }
 
@@ -39,6 +40,7 @@ namespace QuadraticEquiations.Core.ViewModels
             {
                 _valueB = value;
                 RaisePropertyChanged(() => ValueB);
+                Calculate();
             }
         }
 
